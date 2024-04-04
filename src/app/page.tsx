@@ -4,7 +4,7 @@ import Settings from "@/components/settings";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center border">
+    <main className="flex min-h-screen flex-col items-center justify-center">
       <div>
         <section className="mx-2 flex justify-between gap-4">
           <RefreshButton />
