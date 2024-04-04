@@ -1,15 +1,11 @@
 "use client";
 
-import { SettingsIcon } from "lucide-react";
+import { CircleHelp, SettingsIcon } from "lucide-react";
 import { useDebounceCallback } from "usehooks-ts";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Separator } from "@/components/ui/separator";
 import { Slider } from "@/components/ui/slider";
 import { useSettingsStore } from "@/store/use-settings-store";
@@ -79,7 +75,16 @@ const Settings = () => {
 
               {/* Level range */}
               <section className="mb-2">
-                <h2 className="mb-2 block font-bold">Level range</h2>
+                <h2 className="mb-2 flex items-center gap-[6px] font-bold">
+                  Level range
+                  <a
+                    href="https://github.com/WantenMN/random-chinese-characters-generator#level-descriptions"
+                    target="_blank"
+                    title="Level description"
+                  >
+                    <CircleHelp className="w-4 translate-y-[1px]" />
+                  </a>
+                </h2>
                 <div className="mb-2 flex justify-between px-1">
                   <Label className="block">1</Label>
                   <Label className="block">
