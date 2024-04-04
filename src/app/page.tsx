@@ -7,8 +7,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center">
       <div>
         <section className="mx-2 flex justify-between gap-4">
-          <RefreshButton />
           <Settings />
+          <RefreshButton />
         </section>
         <section className="flex justify-center">
           <CharacterDisplay />
