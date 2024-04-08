@@ -1,6 +1,18 @@
 # Random Chinese Characters
 
-A simple web application to display randomly generated common Chinese characters
+A simple web application to display randomly generated common Chinese characters.
+
+Click [here](https://random-chinese-characters.wanten.org/) to experience it!
+
+## Screenshots
+
+1. Main page
+
+![main page](assets/screenshots/main-page.png)
+
+2. Settings
+
+![settings](assets/screenshots/settings.png)
 
 ## Getting Started
 
