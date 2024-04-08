@@ -12,7 +12,7 @@ const CharacterDisplay = () => {
   const [_, copy] = useCopyToClipboard();
 
   if (characters.length === 0) {
-    characters.push(...Array(size * size));
+    characters.push(...Array(size ** 2));
   }
 
   const handleClick = (character: string | undefined) => {
