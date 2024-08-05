@@ -52,7 +52,10 @@ const Settings = () => {
       <HandleMaxSize />
       <Popover>
         <PopoverTrigger>
-          <Button asChild>
+          <Button
+            asChild
+            className="hover:bg-hoverbg active:bg-activebg border bg-background text-foreground"
+          >
             <div>
               <SettingsIcon />
             </div>
@@ -60,7 +63,7 @@ const Settings = () => {
         </PopoverTrigger>
         <PopoverContent className="select-none border-none bg-transparent p-0 shadow-none">
           <Card className="m-0">
-            <CardContent className="p-4">
+            <CardContent className="p-4 text-foreground">
               {/* Size */}
               <section className="mb-2">
                 <h2 className="mb-2 block font-bold">Size</h2>

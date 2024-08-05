@@ -54,7 +54,7 @@ export const CharacterTile = ({
   handleClick: () => void;
 }) => (
   <div
-    className="m-2 flex h-14 w-14 cursor-pointer items-center justify-center rounded border border-slate-200 bg-white text-2xl text-black transition-colors hover:border-slate-400 active:bg-slate-100"
+    className="hover:bg-hoverbg active:bg-activebg m-2 flex h-14 w-14 cursor-pointer items-center justify-center rounded border border-border bg-background text-2xl text-foreground transition-colors hover:border-slate-400"
     onClick={handleClick}
   >
     {character}

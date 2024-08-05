@@ -17,7 +17,7 @@ export const useSettingsStore = create<SettingsStoreState>()(
     (set) => ({
       size: 6,
       maxSize: 8,
-      levelRange: [1, 3],
+      levelRange: [1, 2],
       strokeCountRange: [1, 36],
       setSize: (size) => set({ size }),
       setMaxSize: (maxSize) => set({ maxSize }),

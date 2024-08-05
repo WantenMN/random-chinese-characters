@@ -28,7 +28,10 @@ const RefreshButton = () => {
   }, [handleRefresh]);
 
   return (
-    <Button className="mb-2" onClick={handleRefresh}>
+    <Button
+      className="hover:bg-hoverbg active:bg-activebg border bg-background text-foreground"
+      onClick={handleRefresh}
+    >
       <RefreshCcw
         className={cn("transition-transform  duration-500", {
           "rotate-[360deg]": rotate,

@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       ) : (
         <div>
-          <section className="mx-2 flex justify-between gap-4">
+          <section className="m-2 flex justify-between gap-4">
             <Settings />
             <RefreshButton />
           </section>
