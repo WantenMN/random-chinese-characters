@@ -53,12 +53,12 @@ export const CharacterTile = ({
   character: string;
   handleClick: () => void;
 }) => (
-  <div
-    className="hover:bg-hoverbg active:bg-activebg m-2 flex h-14 w-14 cursor-pointer items-center justify-center rounded border border-border bg-background text-2xl text-foreground transition-colors hover:border-slate-400"
+  <button
+    className="m-2 flex h-14 w-14 cursor-pointer items-center justify-center rounded border border-border bg-background text-2xl text-foreground transition-colors hover:border-slate-400 hover:bg-hoverbg active:bg-activebg"
     onClick={handleClick}
   >
     {character}
-  </div>
+  </button>
 );
 
 export default CharacterDisplay;
